@@ -37,7 +37,7 @@ public class P4_01 {
 	int b_range = input.nextInt();
 	double odd_sum = 0;
 	for (int i = a_range; i <= b_range; i++) {
-	    if (i % 2 == 0) {
+	    if (i % 2 == 1) {
 		odd_sum += i;
 	    }
 	}
